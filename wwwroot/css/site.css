@@ -486,13 +486,19 @@ section {
     cursor: pointer;
 }
 
-/* Default hide nav on mobile */
 @media (max-width: 768px) {
-    .hamburger {
-        display: block;
-        position: absolute;
-        top: 1rem;
-        right: 1.5rem;
+    .nav-links {
+        display: none; /* Hides by default */
+        flex-direction: column;
+        width: 100%;
+        gap: 0.75rem;
+        background-color: #0d0f17;
+        padding: 1rem;
+        border-radius: 10px;
+    }
+
+    .nav-links.active {
+        display: flex; /* Shows when .active class is toggled */
     }
 
     .nav-logo {
@@ -506,13 +512,6 @@ section {
         text-align: left;
     }
 
-    .nav-links {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        gap: 0.75rem;
-    }
-
     .nav-links a,
     .hire-me-button {
         font-size: 1rem;
@@ -520,6 +519,16 @@ section {
         padding: 0.5rem 0;
         text-align: left;
     }
+
+    .hamburger {
+        display: block;
+        position: absolute;
+        top: 1rem;
+        right: 1.5rem;
+        z-index: 1100;
+    }
+}
+
 
     /* Hero video layout fix */
     .hero-video-wrapper {
