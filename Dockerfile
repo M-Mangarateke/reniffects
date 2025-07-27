@@ -15,7 +15,7 @@ FROM mcr.microsoft.com/dotnet/sdk:9.0-nanoserver-1809 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
 COPY ["reniffects/reniffects.csproj", "reniffects/"]
-RUN dotnet restore "./reniffects/reniffects.csproj"
+RUN dotnet restore "./reniffects.csproj"
 COPY . .
 WORKDIR "/src/reniffects"
 RUN dotnet build "./reniffects.csproj" -c %BUILD_CONFIGURATION% -o /app/build
