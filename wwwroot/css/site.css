@@ -475,3 +475,74 @@ section {
     transition: transform 0.8s;
     transform-style: preserve-3d;
 }
+
+@media (max-width: 768px) {
+    /* Navbar mobile layout */
+    .navbar-content {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1rem;
+    }
+
+    .nav-logo {
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .brand-text {
+        font-size: 1.4rem;
+        text-align: left;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 0.75rem;
+    }
+
+    .nav-links a,
+    .hire-me-button {
+        font-size: 1rem;
+        width: 100%;
+        padding: 0.5rem 0;
+        text-align: left;
+    }
+
+    /* Hero video layout fix */
+    .hero-video-wrapper {
+        flex-direction: column;
+        height: auto;
+        padding: 1rem;
+    }
+
+    .hero-video {
+        width: 100%;
+        border-radius: 16px;
+    }
+
+    .video-overlay-action {
+        padding: 1rem;
+        background: linear-gradient(to bottom, rgba(13, 15, 23, 0.75), rgba(13, 15, 23, 0.85));
+        justify-content: center;
+        text-align: center;
+    }
+
+    .intro-overlay h1 {
+        font-size: 2.2rem;
+        margin-bottom: 0.75rem;
+    }
+
+    .intro-overlay p {
+        font-size: 1rem;
+        padding: 0 0.5rem;
+    }
+
+    .explore-button {
+        font-size: 0.95rem;
+        padding: 0.6rem 1.5rem;
+        margin-top: 1rem;
+    }
+}
+
