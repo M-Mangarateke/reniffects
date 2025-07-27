@@ -476,12 +476,23 @@ section {
     transform-style: preserve-3d;
 }
 
+/* Hamburger icon */
+.hamburger {
+    display: none;
+    background: none;
+    font-size: 2rem;
+    border: none;
+    color: #e5f2ff;
+    cursor: pointer;
+}
+
+/* Default hide nav on mobile */
 @media (max-width: 768px) {
-    /* Navbar mobile layout */
-    .navbar-content {
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 1rem;
+    .hamburger {
+        display: block;
+        position: absolute;
+        top: 1rem;
+        right: 1.5rem;
     }
 
     .nav-logo {
