@@ -1060,13 +1060,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\reniffects.br0fnkwf7v.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"br0fnkwf7v"},{"Name":"integrity","Value":"sha256-l7hnk9GLoFskT5RSZdBDNsNpFbWPXWbh\u002BsqiXr3EHI0="},{"Name":"label","Value":"_content/reniffects/reniffects.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1128"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022l7hnk9GLoFskT5RSZdBDNsNpFbWPXWbh\u002BsqiXr3EHI0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 27 Jul 2025 12:58:19 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1128"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022l7hnk9GLoFskT5RSZdBDNsNpFbWPXWbh\u002BsqiXr3EHI0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 27 Jul 2025 17:27:21 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/reniffects/reniffects.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\reniffects.br0fnkwf7v.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-l7hnk9GLoFskT5RSZdBDNsNpFbWPXWbh\u002BsqiXr3EHI0="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1128"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022l7hnk9GLoFskT5RSZdBDNsNpFbWPXWbh\u002BsqiXr3EHI0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 27 Jul 2025 12:58:19 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1128"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022l7hnk9GLoFskT5RSZdBDNsNpFbWPXWbh\u002BsqiXr3EHI0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 27 Jul 2025 17:27:21 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/reniffects/videos/fx_hero.cl4zxuj0y5.mp4">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\videos\fx_hero.mp4'))</AssetFile>

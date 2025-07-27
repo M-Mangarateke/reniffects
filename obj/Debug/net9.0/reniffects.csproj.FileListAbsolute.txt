@@ -96,3 +96,4 @@ C:\Users\manga\source\repos\reniffects\reniffects\obj\Debug\net9.0\reniffects.pd
 C:\Users\manga\source\repos\reniffects\reniffects\obj\Debug\net9.0\reniffects.genruntimeconfig.cache
 C:\Users\manga\source\repos\reniffects\reniffects\obj\Debug\net9.0\ref\reniffects.dll
 C:\Users\manga\source\repos\reniffects\reniffects\obj\Debug\net9.0\compressed\6bza9wnviz-m2met5pseu.gz
+C:\Users\manga\source\repos\reniffects\reniffects\obj\Debug\net9.0\reniffects.sourcelink.json

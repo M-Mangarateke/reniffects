@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("reniffects")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f9817e95ed0cd895e3e7200dc3dd3b4b80c91bf3")]
 [assembly: System.Reflection.AssemblyProductAttribute("reniffects")]
 [assembly: System.Reflection.AssemblyTitleAttribute("reniffects")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
