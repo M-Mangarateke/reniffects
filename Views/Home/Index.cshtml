@@ -1,0 +1,158 @@
+﻿@model dynamic
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!-- Hero Section -->
+<section class="hero">
+    <div class="hero-video-wrapper">
+        <video class="hero-video" autoplay muted loop playsinline>
+            <source src="/videos/fx_hero.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+        </video>
+
+        <!-- Overlay Container -->
+        <div class="video-overlay-action">
+            <div class="intro-overlay">
+                <h1 class="glow-text">Welcome to reniffects</h1>
+                <p>
+                    Bringing stories to life through
+                    <span class="glow-accent">VFX</span> &
+                    <span class="glow-accent-purple">Direction</span>
+                </p>
+                <button class="explore-button" onclick="document.getElementById('about').scrollIntoView({ behavior: 'smooth' });">
+                    Explore ↓
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const video = document.querySelector(".hero-video");
+        if (video) {
+            video.muted = true;
+            video.play().catch((e) => {
+                console.warn("Autoplay failed:", e);
+            });
+        }
+    });
+</script>
+</section>
+
+
+<!-- About Us Section -->
+<section class="about-section" id="about">
+    <div class="about-container">
+        <div class="about-card">
+            <img src="~/images/reni_main_pic.jpg" alt="Main portrait" />
+        </div>
+        <div class="about-text">
+            <h2 class="glow-heading-blue">About Me</h2>
+            <p>I’m <strong>Oreneile Machitje</strong>, a VFX creative and visual storyteller based in Johannesburg. Currently completing my final year at <strong>AFDA</strong>.</p>
+            <p>I specialize in <strong>Visual Effects (VFX)</strong> and have directed short films, including my work with <em>Cloud 9 Studios</em> on the film <strong>SABELA</strong>.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Portfolio Section -->
+<section class="portfolio-section" id="portfolio">
+    <h2 class="glow-heading">Visual Portfolio</h2>
+    <div class="portfolio-grid">
+        <div class="portfolio-card"><img src="~/images/reniffects_poster_project1.jpg" alt="Timeless Poster" /></div>
+        <div class="portfolio-card"><img src="~/images/reniffects_poster_project2.jpg" alt="Doechi" /></div>
+        <div class="portfolio-card"><img src="~/images/reniffects_poster_project3.jpg" alt="Uncle Waffles Poster" /></div>
+    </div>
+</section>
+
+<!-- Film Projects Section -->
+<section class="film-section" id="projects">
+    <div class="film-container">
+        <div class="film-text">
+            <h2 class="glow-heading-blue">Film Projects</h2>
+            <p>Studying a <strong>bachelors in motion picture</strong>, I am a South African filmmaker with a passion to make my mark in the industry.</p>
+            <p>My creative practice explores emotional honesty, identity, and psychological depth through sound and symbolism.</p>
+            <p>One of my proudest moments was directing <strong>"SABELA"</strong> as part of <em>Cloud 9 Studios</em>, officially presented at AFDA.</p>
+        </div>
+        <div class="film-images">
+            <img src="~/images/film_equipment.jpg" alt="equipment" />
+            <img src="~/images/on_set.jpg" alt="On set" />
+        </div>
+    </div>
+</section>
+
+<!-- Brand Collaborations Section -->
+<section class="brand-section" id="brands">
+    <h2 class="glow-heading">Brand Collaborations</h2>
+    <div class="brand-grid">
+        <div class="flip-card">
+            <div class="flip-inner">
+                <div class="flip-back"><img src="~/images/cleanipedia_brand_deal.JPG" alt="Cleanipedia" /></div>
+                <div class="flip-front"><img src="~/images/logos/cleanipedia_logo-removebg-preview.png" alt="Cleanipedia logo" /></div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-inner">
+                <div class="flip-back"><img src="~/images/garnier_brand_deal.JPG" alt="Garnier" /></div>
+                <div class="flip-front"><img src="~/images/logos/garnier_logo-removebg-preview.png" alt="Garnier logo" /></div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-inner">
+                <div class="flip-back"><img src="~/images/sunlight_brand_deal.jpg" alt="Sunlight" /></div>
+                <div class="flip-front"><img src="~/images/logos/sunlight_logo-removebg-preview.png" alt="Sunlight logo" /></div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-inner">
+                <div class="flip-back"><img src="~/images/himalaya_brand_deal.JPG" alt="Himalaya" /></div>
+                <div class="flip-front"><img src="~/images/logos/himalaya_logo-removebg-preview.png" alt="Himalaya logo" /></div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-inner">
+                <div class="flip-back"><img src="~/images/maybelline_brand_deal.jpg" alt="Maybelline" /></div>
+                <div class="flip-front"><img src="~/images/logos/maybelline_logo-removebg-preview.png" alt="Maybelline logo" /></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact-section" id="contact">
+    <h2 class="glow-heading-blue">Let's Connect</h2>
+    <p>Collaborations, creative opportunities, or just to say hello. I’d love to hear from you.</p>
+    <form class="contact-form">
+        <input type="text" placeholder="Your Name" />
+        <input type="email" placeholder="Your Email" />
+        <textarea placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+    <br />
+    <h2 class="glow-heading">Check my socials!</h2>
+    <div class="socials-grid">
+        <div class="socials-card">
+            <div class="socials-card-glow">
+                <div class="socials-purple-glow"><h2>3K+ Instagram Followers!</h2></div>
+            </div>
+        </div>
+        <div class="socials-card">
+            <div class="socials-card-glow">
+                <div class="socials-purple-glow"><h2>7k+ Followers & 250K+ Likes On TikTok!</h2></div>
+            </div>
+        </div>
+        <div class="socials-card">
+            <div class="socials-card-glow">
+                <div class="socials-purple-glow"><h2>600+ Subscribers On Youtube!</h2></div>
+            </div>
+        </div>
+      </div>
+    <div class="social-buttons">
+        <a href="https://www.instagram.com/pretty.mamacita/?hl=en"><img src="~/images/logos/insta.jpg" alt="Instagram" class="social-icon" /></a>
+        <a href="https://www.tiktok.com/@@luvv_r3nii"><img src="~/images/logos/tiktok_logo.JPG" alt="TikTok" class="social-icon" /></a>
+        <a href="https://www.youtube.com/channel/UCncrFjzVqndC4az01ho_84w/featured"><img src="~/images/logos/youtube_logo.PNG" alt="YouTube" class="social-icon" /></a>
+    </div>
+</section>
+

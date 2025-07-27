@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"] - reniffects</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0d0f17" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="icon" type="image/jpeg" href="~/images/logos/reniffects_logo-removebg-preview.png" />
+    <script src="https://kit.fontawesome.com/yourkit.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar-container">
+        <div class="navbar-content">
+            <div class="nav-logo">
+                <span class="brand-text">reniffects</span>
+            </div>
+
+            <nav class="nav-links">
+                <a href="#about">About</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#projects">Projects</a>
+                <a href="#brands">Brands</a>
+                <a href="#contact">Contact</a>
+                <a class="hire-me-button" href="#contact">Hire Me</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Body -->
+    <main role="main" class="main-content">
+        @RenderBody()
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; @DateTime.Now.Year reniffects. All rights reserved.</p>
+    </footer>
+
+    <!-- Optional Scroll-to-Top Button -->
+    @* 
+    <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="scroll-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </button> 
+    *@
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
