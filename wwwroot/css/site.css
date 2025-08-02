@@ -32,7 +32,7 @@ p {
     background-color: #0d0f17;
     padding: 1rem 2rem;
     z-index: 1000;
-    box-shadow: 0 0 20px rgba(180, 66, 245, 0.6); /* Purple glow */
+    box-shadow: 0 0 20px rgba(180, 66, 245, 0.6); 
     border-bottom: 1px solid rgba(180, 66, 245, 0.2);
 }
 
@@ -153,14 +153,14 @@ section {
 
 .hero-video {
     width: 100%;
-    max-width: 1600px; /* wide but controlled */
+    max-width: 1600px; 
     border-radius: 24px;
     box-shadow: 0 0 50px rgba(180, 66, 245, 0.5);
     object-fit: cover;
     transition: transform 0.3s ease;
 }
 
-/* Overlay on top of video */
+
 .video-overlay-action {
     position: absolute;
     top: 0;
@@ -176,7 +176,7 @@ section {
     border-radius: 24px;
 }
 
-/* Centered Intro Text */
+
 .intro-overlay {
     text-align: center;
     z-index: 2;
@@ -195,7 +195,7 @@ section {
         margin-bottom: 2rem;
     }
 
-/* Explore Button */
+
 .explore-button {
     padding: 0.75rem 2rem;
     background: linear-gradient(to right, #00cfff, #b442f5);
@@ -215,7 +215,7 @@ section {
         opacity: 0.9;
     }
 
-/* Subtle bounce animation */
+
 @keyframes bounce {
     0%, 100% {
         transform: translateY(0);
@@ -488,7 +488,7 @@ section {
 
 @media (max-width: 768px) {
     .nav-links {
-        display: none; /* Hides by default */
+        display: none; 
         flex-direction: column;
         width: 100%;
         gap: 0.75rem;
@@ -498,7 +498,7 @@ section {
     }
 
     .nav-links.active {
-        display: flex; /* Shows when .active class is toggled */
+        display: flex; 
     }
 
     .nav-logo {
